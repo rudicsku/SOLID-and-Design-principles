@@ -1,4 +1,4 @@
-package org.example.DesignPatterns.CreationalDesignPatterns;
+package org.example.DesignPatterns.CreationalDP;
 
 /*
 Creational design patter
