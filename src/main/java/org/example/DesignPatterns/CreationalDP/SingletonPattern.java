@@ -1,11 +1,14 @@
 package org.example.DesignPatterns.CreationalDP;
 
-/*
-Creational design patter
-
-The class has only one instance while providing global access to this instance.
-
-When to use? - We can control access to a shared resource such as files, databases or thread pools.
+/**
+ * The class has only one instance while providing global access to this instance.
+ * <p>
+ * The Singleton pattern is useful in situations where there is a need to maintain a single instanceof a class
+ * that controls access to a shared resource, such as a database connection, a thread pool, or a configuration file.
+ * To implement the Singleton pattern in Java, you can define a private constructor for the class to prevent external instantiation,
+ * and a static method that returns the single instance of the class.
+ * <p>
+ * When to use? - We can control access to a shared resource such as files, databases or thread pools.
  */
 public class SingletonPattern {
 

@@ -1,7 +1,13 @@
 package org.example.DesignPatterns.StructuralDP;
 
-/*
-Adapter is a structural design pattern that allows objects with incompatible interfaces to collaborate.
+/**
+ * Adapter is a structural design pattern that allows objects with incompatible interfaces to collaborate.
+ * <p>
+ * Adapter pattern is used to convert the interface of one class into another interface that clients expect.
+ * This allows classes with incompatible interfaces to work together by wrapping one interface with another.
+ * <p>
+ * To implement the Adapter pattern in Java, you can create an adapter class that implements the interface that the client expects,
+ * and wraps an instance of the class that has the incompatible interface.
  */
 public class AdapterPattern {
 
