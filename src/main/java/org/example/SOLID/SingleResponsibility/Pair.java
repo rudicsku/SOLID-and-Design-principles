@@ -1,8 +1,8 @@
 package org.example.SOLID.SingleResponsibility;
 
 public class Pair {
-    private String first;
-    private String second;
+    private final String first;
+    private final String second;
 
     public Pair(String first, String second) {
         this.first = first;

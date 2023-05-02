@@ -3,7 +3,7 @@ package org.example.SOLID.SingleResponsibility;
 import java.util.Scanner;
 
 public class InputProcessor {
-    public static Pair process() {
+    public static Pair getInputFromConsole() {
 
         // ask the user for any input
         Scanner scanner = new Scanner(System.in);

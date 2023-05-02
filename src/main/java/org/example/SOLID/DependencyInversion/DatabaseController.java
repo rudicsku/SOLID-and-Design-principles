@@ -17,4 +17,8 @@ public class DatabaseController {
 	public void disconnect() {
 		this.database.disconnect();
 	}
+
+	//Bad example
+	//Tight bounding, when we program to a class (instead of an interface)
+	//database = new MySQLDatabase();
 }

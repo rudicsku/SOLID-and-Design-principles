@@ -1,6 +1,6 @@
 package org.example.SOLID.SingleResponsibility;
 
-public class ViolationChecker {
+public class Validator {
 
     // we have to return true if the pair components are numbers
     // otherwise we return false

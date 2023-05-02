@@ -1,6 +1,6 @@
 package org.example.SOLID.DependencyInversion;
 
-// this is another low level module
+// low level module
 public class OracleDatabase implements Database {
 
 	@Override
